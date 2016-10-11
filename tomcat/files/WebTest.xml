@@ -1,0 +1,7 @@
+<Context path="" crossContext="true">
+
+	<Resource name="jdbc/dockerdemo" auth="Container" type="javax.sql.DataSource"
+		driverClassName="org.mariadb.jdbc.Driver" url="jdbc:mariadb://db:3306/dockerdemo"
+		username="root" password="hyweb" maxActive="5" />
+		
+</Context>
